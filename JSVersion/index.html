@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock|Paper|Scissors</title>
+
+    <!--  Style -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+            <h1>Rock Paper Scissors</h1>
+    </header>
+    
+    <!-- Selection buttons -->
+    <section>
+        <h2>Choose one:</h2>
+
+        <button id="rockBtn"><i class="fas fa-5x fa-hand-rock"></i></button>
+        <button id="paperBtn"><i class="fas fa-5x fa-hand-paper"></i></button>
+        <button id="scissorsBtn"><i class="fas fa-5x  fa-hand-scissors"></i></button>
+        
+        <p>Your choice: <span id="player"></span></p>
+        <p>Comp choice: <span id="comp"></span></p>
+        <h2>Result: <span id="result"></span></h2>
+    </section>
+     
+    <!-- Stats -->
+    <footer>
+        <ul>
+            <li>Matches: <span id="match">0</span></li>
+            <li>Wins: <span id="wins">0</span></li>
+            <li>Loses: <span id="loses">0</span></li>
+        </ul>
+        <button id="resetGame">Reset</button>
+    </footer>
+    
+    <!-- Scripts -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>

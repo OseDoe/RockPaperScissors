@@ -1,0 +1,27 @@
+/* Variable Declarations */
+:root {
+    --beige: #FAF3DD;
+    --paynes-grey: #586F7C;
+    --charcoal: #2F4550;
+    --columbia-blue: #B8DBD9;
+}
+
+/* General Style */
+body {
+    background: var(--beige);
+    color: var(--charcoal);
+    text-align: center;
+}
+
+button {
+    background: var(--paynes-grey);
+    color: var(--columbia-blue);
+    margin: 1em;
+    padding: 0.7em;
+    border-radius: 5px;
+}
+
+li {
+    display: inline;
+    padding-right: 2rem;
+}
